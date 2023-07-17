@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/favoritesFragment">
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.RegistrationFragment"
+        android:label="RegistrationFragment" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/parametricSearchFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.ParametricSearchFragment"
+        android:label="fragment_parametric_search"
+        tools:layout="@layout/fragment_parametric_search" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="production.kossem.motoapp.presentation.ui.fragmets.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>
